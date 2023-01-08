@@ -1,0 +1,63 @@
+*{
+  max-width: 1600px;
+}
+
+/* banner */
+.header{
+   background-image: url(../styles/banner3.png);
+  width: 1600px;
+  height:809px 
+  
+
+}
+.banner{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  color: antiquewhite;
+
+}
+.title{
+  font-size: 65px;
+  font-weight: 700px;
+  text-align: right;
+  font-family:"work sons";
+  margin-bottom: 20px;
+
+}
+  .details{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    font-family:"work sons" ;
+  }
+.btn{
+  color: blue;
+  text-align: right;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+  height: 50px;
+ margin-left: 1200px;
+  background-color: antiquewhite;
+}
+
+/* section */
+.about{
+  margin margin-top: 130px;
+  align-items::content;
+  display: flex;
+  margin: 117px 1380px 232px 296px;
+  width: 1072px;
+  height: 723px;
+  
+  
+}
+
+/* text */
+.text{
+  width: 416px;
+  height: 400px;
+  margin-top: 200px;
+ 
+}

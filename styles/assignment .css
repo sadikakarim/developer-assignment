@@ -4,25 +4,27 @@
 
 /* banner */
 .header{
-   background-image: url(../styles/banner3.png);
+  background-image: url("../styles/image/banner3.png");
   width: 1600px;
-  height:809px 
-  
-
+  height:809px ;
+  text-align: right;
 }
 .banner{
   width: 100%;
   position: absolute;
   top: 50%;
   color: antiquewhite;
+  
+ 
 
 }
 .title{
   font-size: 65px;
   font-weight: 700px;
-  text-align: right;
+  /* text-align: right; */
   font-family:"work sons";
   margin-bottom: 20px;
+  margin-left: 920px;
 
 }
   .details{
@@ -30,6 +32,7 @@
     font-weight: 400;
     text-align: right;
     font-family:"work sons" ;
+
   }
 .btn{
   color: blue;
@@ -44,15 +47,16 @@
 
 /* section */
 .about{
-  margin margin-top: 130px;
+  margin-top: 130px;
   align-items::content;
   display: flex;
   margin: 117px 1380px 232px 296px;
   width: 1072px;
   height: 723px;
-  
-  
 }
+
+   
+
 
 /* text */
 .text{
@@ -60,4 +64,122 @@
   height: 400px;
   margin-top: 200px;
  
+}
+/* my plans style */
+.myplans{
+  margin-top: 130px;
+
+
+}
+.title{
+  text-align: center;
+}
+
+
+.section-title{ 
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+
+}
+.skill-container{
+ display:flex;
+align-items: center;
+ gap: 20px;
+
+}
+.skill{
+  background: aliceblue;
+  border-radius: 5px;
+}
+.skill-title{
+  font-weight: 700;
+  font-size: 30px;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+
+}
+.skill-description{
+  font-weight: 500px;
+  height: 25px;
+ 
+}
+.grade{background-image: url("../images/gradient1.png"),url("../images/watch.png");
+  margin-top: 130px;
+  width: 1140px;
+  height: 300px;
+  text-align: left;
+  position: absolute;
+  top:auto;
+  left: 230px;
+
+
+}
+.title2{
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 59px 147px ;
+  color: antiquewhite;
+}
+
+.btn2{
+  color: blue;
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+  height: 50px;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 150px;
+  bottom: 59px;
+  
+}
+
+
+.contact{
+  margin-top: 530px;
+  
+  width: 1600px;
+  height:800px ;
+  padding: 130px 230px;
+ display: flex;
+  background-color: rgb(5, 5, 5);
+color: rgb(253, 249, 249);
+}
+.contact .sec-t{
+  font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+
+text-align: left;
+
+  
+
+}
+.contact input[type="email"] {
+
+  margin-bottom: 24px;
+  border: 0px;
+  width: 100%;
+  padding:18px 30px;
+}
+.contact{
+  margin-bottom: 24px;
+  gap: 100px;
+  border: 0;
+  width: 100%;
+  padding: 18px 30px;
+}
+.btn3{
+  color: rgb(235, 235, 238);
+  text-align: left;
+  font-weight: 600;
+  font-size: 20px;
+  border: 0px;
+  height: 50px;
+  background-color: rgb(74, 16, 231);
 }
